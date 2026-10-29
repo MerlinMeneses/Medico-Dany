@@ -164,18 +164,18 @@ const symptomData = {
     waMessage: 'Hola Dr. Dany, presento dolor agudo en la espalda baja/cintura y requiero atención quiropráctica.'
   },
   ciatica: {
-    badge: 'Recomendación para Nervio Ciático y Pierna',
-    title: 'Protocolo Especializado para Nervio Ciático',
-    desc: 'El adormecimiento, punzada o ardor que corre desde el glúteo por la pierna hacia el pie es consecuencia de una compresión radicular (comúnmente L4-L5 o L5-S1). Nuestro tratamiento médico quiropráctico alivia la presión sin cirugía.',
-    ctaText: 'Consultar Caso de Ciática en WhatsApp',
-    waMessage: 'Hola Dr. Dany, tengo síntomas de ciática (dolor que baja por el glúteo y pierna), necesito cita de valoración.'
+    badge: 'Recomendación para Zona Lumbar y Pierna',
+    title: 'Atención Biomecánica para Zona Lumbar y Pierna',
+    desc: 'El adormecimiento, punzada o ardor que corre desde el glúteo por la pierna suele asociarse a sobrecarga o compresión mecánica lumbar. Nuestro abordaje manual busca descomprimir la zona y relajar la musculatura mediante técnicas conservadoras no invasivas.',
+    ctaText: 'Consultar Caso en WhatsApp',
+    waMessage: 'Hola Dr. Dany, presento molestia lumbar y en la pierna, requiero cita de valoración.'
   },
   general: {
     badge: 'Recomendación para Tensión General y Postura',
-    title: 'Ajuste Integral de Columna Completa y Descarga Miofascial',
-    desc: 'Ideal para quienes pasan horas sentados, deportistas o personas que sienten el cuerpo pesado, rígido o desbalanceado. Realizamos un chequeo de 24 vértebras para recalibrar tu sistema nervioso y energía diaria.',
-    ctaText: 'Agendar Alineación General en WhatsApp',
-    waMessage: 'Hola Dr. Dany, me siento muy tenso y desalineado, quiero agendar un ajuste general de columna.'
+    title: 'Ajuste Integral de Columna y Descarga Miofascial',
+    desc: 'Ideal para quienes pasan horas sentados, deportistas o personas que sienten el cuerpo pesado o desbalanceado. Realizamos una evaluación articular de columna para favorecer tu equilibrio corporal y bienestar.',
+    ctaText: 'Agendar Valoración en WhatsApp',
+    waMessage: 'Hola Dr. Dany, me siento tenso y desalineado, quiero agendar una consulta de valoración.'
   }
 };
 
@@ -217,74 +217,74 @@ window.selectSymptomZone = function(zoneKey) {
 const serviceModalDetails = {
   'ajuste-columna': {
     title: 'Ajuste y Alineación Integral de Columna',
-    subtitle: 'El tratamiento estrella para restaurar el eje natural de tu cuerpo',
+    subtitle: 'El tratamiento enfocado en favorecer el eje natural de tu cuerpo',
     icon: 'fa-solid fa-arrows-to-dot',
-    description: 'La subluxación vertebral interrumpe la comunicación entre el cerebro y los órganos a través de la médula espinal. Con maniobras indoloras y de alta velocidad, reposicionamos cada vértebra para liberar la presión nerviosa.',
+    description: 'La subluxación vertebral y la mala postura pueden generar tensión muscular e incomodidad general. Mediante maniobras manuales cuidadosas y controladas, favorecemos la movilidad articular para liberar la presión acumulada.',
     benefits: [
-      'Alivio instantáneo de rigidez y pesadez corporal',
-      'Desbloqueo de 24 segmentos vertebrales',
-      'Mejora la postura y oxigenación general',
-      'Apto para jóvenes, adultos y personas mayores'
+      'Sensación de alivio y ligereza corporal',
+      'Movilización y alineación articular de columna',
+      'Favorece la postura y el confort físico',
+      'Protocolos adaptados a cada paciente'
     ],
     duration: '45 a 60 minutos por sesión',
     recommendation: 'Llevar ropa cómoda (pants o playera de algodón).',
     waMsg: 'Hola Dr. Dany, me interesa agendar el servicio de Ajuste Integral de Columna.'
   },
   'ciatica-lumbar': {
-    title: 'Alivio de Ciática y Dolor Lumbar Agudo',
-    subtitle: 'Descompresión radicular sin fármacos agresivos',
+    title: 'Atención de Molestias Lumbares y Trayecto Ciático',
+    subtitle: 'Manejo conservador y descompresión biomecánica suave',
     icon: 'fa-solid fa-bolt-lightning',
-    description: 'El nervio ciático es el más largo y grueso del cuerpo. Cuando una vértebra o disco lo presiona, el dolor puede ser invalidante. Como médico, el Dr. Dany evalúa tu rango neurológico y aplica maniobras de tracción y descompresión que frenan el pinzamiento.',
+    description: 'La tensión en la región lumbar puede generar molestias irradiadas hacia el glúteo y extremidad inferior. Como médico, el Dr. Dany evalúa tu rango neurológico y aplica maniobras manuales suaves para favorecer la descompresión mecánica.',
     benefits: [
-      'Disminución del ardor y dolor punzante en glúteo y pierna',
-      'Desinflamación de raíces lumbares L4, L5 y S1',
-      'Recuperación de la capacidad para caminar y agacharse',
-      'Tratamiento seguro y no invasivo'
+      'Disminución progresiva de la tensión y ardor en glúteo y pierna',
+      'Terapia manual conservadora no invasiva',
+      'Recuperación de la movilidad funcional al caminar y agacharse',
+      'Orientación postural preventiva'
     ],
     duration: '45 minutos',
     recommendation: 'Si cuentas con radiografía o resonancia lumbar previa, tráela a consulta.',
-    waMsg: 'Hola Dr. Dany, quiero agendar cita para tratamiento de ciática y dolor lumbar.'
+    waMsg: 'Hola Dr. Dany, quiero agendar cita para valoración de molestia lumbar / ciática.'
   },
   'cervicalgia': {
-    title: 'Ajuste Cervical, Cuello y Cefaleas Tensionales',
-    subtitle: 'Libera la tensión del estrés y el trabajo en computadora',
+    title: 'Ajuste Cervical, Cuello y Tensión Craneal',
+    subtitle: 'Libera la sobrecarga del estrés y el trabajo en computadora',
     icon: 'fa-solid fa-head-side-virus',
-    description: 'La mala postura frente a teléfonos y monitores provoca el síndrome de cuello de texto y rectificación cervical. Este protocolo descontractura los músculos occipitales y alinea vértebras C1 a C7.',
+    description: 'La postura continua frente a pantallas provoca rigidez en trapecios y cuello. Este protocolo busca relajar los tejidos suboccipitales y movilizar vértebras cervicales de forma suave.',
     benefits: [
-      'Eliminación de dolores de cabeza matutinos y vespertinos',
-      'Desaparición del crujido doloroso al girar el cuello',
-      'Alivio de la pesadez sobre los hombros y trapecios',
-      'Sensación de claridad mental y relajación profunda'
+      'Alivio y disminución de la tensión en cabeza y nuca',
+      'Mayor soltura y rango de movimiento al girar el cuello',
+      'Alivio de la sensación de pesadez sobre los hombros',
+      'Sensación de ligereza y descanso postural'
     ],
     duration: '40 a 50 minutos',
     recommendation: 'Evitar collares o accesorios metálicos al asistir a la cita.',
-    waMsg: 'Hola Dr. Dany, quisiera agendar consulta para dolor de cuello y migrañas tensionales.'
+    waMsg: 'Hola Dr. Dany, quisiera agendar consulta para tensión de cuello y cabeza.'
   },
   'descarga-muscular': {
     title: 'Terapia Miofascial y Descarga Muscular Profunda',
-    subtitle: 'Disolución de puntos gatillo y sobrecarga muscular',
+    subtitle: 'Disolución de puntos de tensión y sobrecarga muscular',
     icon: 'fa-solid fa-dumbbell',
-    description: 'Terapia que combina terapia manual profunda y estiramientos pasivos para romper adherencias en la fascia muscular. Esencial para deportistas o personas bajo alto estrés físico y mental.',
+    description: 'Terapia que combina técnicas manuales profundas y estiramientos pasivos para relajar las bandas musculares en tensión. Recomendado para deportistas o personas bajo sobrecarga física.',
     benefits: [
-      'Eliminación de contracturas dolorosas y nudos en la espalda',
-      'Aumento del flujo sanguíneo y eliminación de ácido láctico',
-      'Mayor flexibilidad y rango de movimiento muscular',
-      'Acelera la recuperación tras entrenamientos intensos'
+      'Disminución de contracturas y tensión acumulada en la espalda',
+      'Favorece la microcirculación y oxigenación tisular',
+      'Mayor flexibilidad y rango de movimiento',
+      'Acompañamiento en la recuperación física de actividades intensas'
     ],
     duration: '50 a 60 minutos',
     recommendation: 'Hidratarse bien antes y después de la sesión.',
-    waMsg: 'Hola Dr. Dany, me interesa agendar una sesión de descarga muscular y puntos gatillo.'
+    waMsg: 'Hola Dr. Dany, me interesa agendar una sesión de descarga muscular y puntos miofasciales.'
   },
   'valoracion-medica': {
     title: 'Valoración Médica Completa y Análisis Radiológico',
-    subtitle: 'El respaldo de un médico cirujano para tu tranquilidad',
+    subtitle: 'El respaldo de un médico general para tu tranquilidad',
     icon: 'fa-solid fa-x-ray',
-    description: 'Antes de realizar cualquier tratamiento, la seguridad es lo primero. El Dr. Dany realiza pruebas ortopédicas especializadas, revisión de reflejos patelares, análisis de postura y lectura minuciosa de tus estudios radiográficos.',
+    description: 'Antes de realizar cualquier manipulación manual, la seguridad y el diagnóstico son prioridad. El Dr. Dany realiza pruebas ortopédicas de movilidad, reflejos y lectura cuidadosa de tus estudios radiográficos.',
     benefits: [
-      'Diagnóstico clínico con cédula profesional médica',
-      'Interpretación de estudios de imagen paso a paso',
-      'Detección oportuna de hernias, discopatías y desviaciones',
-      'Plan de tratamiento 100% personalizado'
+      'Evaluación clínica con cédula profesional de médico',
+      'Interpretación y explicación clara de tus estudios de imagen',
+      'Detección de desviaciones, postura y contraindicaciones',
+      'Plan de atención individualizado y responsable'
     ],
     duration: '45 minutos',
     recommendation: 'Traer estudios radiográficos o de resonancia recientes en físico o digital.',
@@ -292,18 +292,18 @@ const serviceModalDetails = {
   },
   'postura-ergonomia': {
     title: 'Reeducación Postural y Prevención Biomecánica',
-    subtitle: 'Aprende a cuidar tu columna para que el dolor no regrese',
+    subtitle: 'Aprende a cuidar tu columna y mantener tu bienestar',
     icon: 'fa-solid fa-person-walking',
-    description: 'Alinearse en el consultorio es el 50%; el otro 50% es cómo usas tu cuerpo día a día. Te capacitamos con rutinas ergonómicas para sentarte, levantar peso, dormir y fortalecer el core.',
+    description: 'Alinearse en el consultorio es un gran paso; el cuidado continuo en tu vida diaria consolida los resultados. Te orientamos con rutinas ergonómicas para sentarte, agacharte y fortalecer tu musculatura de soporte.',
     benefits: [
-      'Consolidación a largo plazo de tus ajustes quiroprácticos',
-      'Guía personalizada de ergonomía para tu trabajo',
-      'Ejercicios clave de fortalecimiento muscular lumbar y cervical',
-      'Autonomía y bienestar físico constante'
+      'Seguimiento preventivo para consolidar tus ajustes',
+      'Guía personalizada de ergonomía para tu trabajo o actividades',
+      'Ejercicios clave de movilidad y fortalecimiento lumbar y cervical',
+      'Fomento de hábitos saludables y confort físico constante'
     ],
     duration: '40 minutos',
     recommendation: 'Venir con ropa deportiva para realizar pruebas dinámicas.',
-    waMsg: 'Hola Dr. Dany, me gustaría recibir asesoría de reeducación postural y fortalecimiento de columna.'
+    waMsg: 'Hola Dr. Dany, me gustaría recibir asesoría de reeducación postural y movilidad de columna.'
   }
 };
 

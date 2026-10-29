@@ -1,6 +1,6 @@
-# Dr. Dany | Médico & Quiropráctico Especialista en Columna 🩺⚡
+# Dr. Dany | Médico General & Quiropráctico 🩺⚡
 
-Sitio web oficial y landing page de alta conversión para los servicios quiroprácticos y médicos del **Dr. Dany** ([@elsuggardany](https://www.tiktok.com/@elsuggardany)).
+Sitio web oficial y landing page para los servicios de medicina general y terapia quiropráctica del **Dr. Dany** ([@elsuggardany](https://www.tiktok.com/@elsuggardany)).
 
 ![Dr. Dany Preview](assets/clinic_hero.jpg)
 
@@ -10,17 +10,17 @@ Sitio web oficial y landing page de alta conversión para los servicios quiropr�
 
 - **Diseño Médico Moderno & Elegante:** Construido con paleta clínica premium (*Deep Obsidian*, *Emerald Glow* `#10b981`, *Bio-Cyan* `#06b6d4`), efectos de glassmorphism y microinteracciones fluidas.
 - **Fotografías Reales:** Integración de imágenes y momentos del perfil oficial de TikTok (@elsuggardany) y tomas clínicas en alta resolución.
-- **6 Servicios Especializados con Modales Informativos:**
+- **6 Servicios con Modales Informativos:**
   1. *Ajuste y Alineación Integral de Columna*
-  2. *Alivio de Ciática y Dolor Lumbar Agudo*
-  3. *Ajuste Cervical, Cuello y Cefaleas Tensionales*
+  2. *Atención de Molestias Lumbares y Trayecto Ciático*
+  3. *Ajuste Cervical, Cuello y Tensión Craneal*
   4. *Terapia Miofascial y Descarga Muscular Profunda*
   5. *Valoración Médica Completa & Análisis Radiológico*
   6. *Reeducación Postural & Biomecánica Preventiva*
-- **Test Interactivo "¿Dónde Sientes el Dolor?":** Permite al paciente pulsar sobre un mapa anatómico 3D de columna (Cervical, Dorsal, Lumbar, Ciática, General) para recibir recomendaciones inmediatas y preparar su mensaje de WhatsApp.
+- **Test Interactivo "¿Dónde Sientes la Molestia?":** Permite al paciente pulsar sobre un mapa anatómico 3D de columna (Cervical, Dorsal, Lumbar, Ciática, General) para recibir recomendaciones orientativas y preparar su mensaje de WhatsApp.
 - **Vitrina de TikTok & Casos Clínicos:** Destaca la serie insignia *"Diario de un Doctor"* con más de 107K seguidores y videos que superan los 5.8 millones de reproducciones.
 - **Formulario de Citas Inteligente:** Formatea automáticamente la solicitud de consulta con datos médicos, turnos y síntomas para enviarlos directo al WhatsApp del consultorio en un clic.
-- **Acordeón FAQ Interactivo:** Respuestas directas a dudas sobre dolor, cavitación articular ("tronar") y seguridad.
+- **Acordeón FAQ Interactivo:** Respuestas a dudas sobre postura, cavitación articular y descarte de contraindicaciones.
 - **100% Responsivo:** Optimizado para smartphones, tablets y pantallas de escritorio.
 
 ---
