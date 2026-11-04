@@ -1836,9 +1836,30 @@ textarea {
 
 /* 17. FOOTER */
 .footer-section {
-  background: #05070d;
-  border-top: 1px solid var(--border-light);
-  padding: 4rem 0 2.5rem 0;
+  position: relative;
+  background-color: #040711;
+  background-image: 
+    linear-gradient(180deg, rgba(4, 7, 17, 0.94) 0%, rgba(6, 11, 25, 0.88) 50%, rgba(4, 7, 17, 0.96) 100%),
+    url('assets/footer_bg.jpg');
+  background-size: cover;
+  background-position: center 30%;
+  background-repeat: no-repeat;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 4.5rem 0 2.5rem 0;
+  overflow: hidden;
+}
+
+.footer-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(30, 90, 180, 0.15), transparent 70%);
+  pointer-events: none;
+}
+
+.footer-content {
+  position: relative;
+  z-index: 1;
 }
 
 .footer-top {
