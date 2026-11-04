@@ -3,6 +3,8 @@
  * Core Interactive Application Scripts
  */
 
+const WHATSAPP_NUMBER = '5228171180415';
+
 document.addEventListener('DOMContentLoaded', () => {
   initNavigation();
   initScrollAnimations();
@@ -205,7 +207,7 @@ window.selectSymptomZone = function(zoneKey) {
     descEl.innerText = data.desc;
     btnEl.innerHTML = `<i class="fa-brands fa-whatsapp"></i> ${data.ctaText}`;
     
-    const waUrl = `https://wa.me/5213300000000?text=${encodeURIComponent(data.waMessage)}`;
+    const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(data.waMessage)}`;
     btnEl.setAttribute('href', waUrl);
     btnEl.setAttribute('target', '_blank');
   }
@@ -316,7 +318,7 @@ window.openServiceModal = function(serviceKey) {
   if (!modal || !content) return;
 
   const benefitsList = item.benefits.map(b => `<li><i class="fa-solid fa-circle-check text-emerald"></i> ${b}</li>`).join('');
-  const waUrl = `https://wa.me/5213300000000?text=${encodeURIComponent(item.waMsg)}`;
+  const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(item.waMsg)}`;
 
   content.innerHTML = `
     <div class="modal-header-box">
@@ -445,7 +447,7 @@ window.handleFormSubmit = function(event) {
 -----------------------------------
 _Mensaje generado desde el sitio web oficial del Dr. Dany_`;
 
-  const waUrl = `https://wa.me/5213300000000?text=${encodeURIComponent(textMessage)}`;
+  const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(textMessage)}`;
 
   // Show visual feedback
   const submitBtn = document.getElementById('submit-form-btn');
