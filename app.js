@@ -306,6 +306,51 @@ const serviceModalDetails = {
     duration: '40 minutos',
     recommendation: 'Venir con ropa cómoda para realizar pruebas de movimiento.',
     waMsg: 'Hola Dr. Dany, me gustaría recibir asesoría de reeducación postural.'
+  },
+  'medicina-general': {
+    title: 'Consulta Médica General',
+    subtitle: 'Atención primaria y diagnóstico clínico profesional',
+    icon: 'fa-solid fa-user-doctor',
+    description: 'Evaluación integral de salud realizada por Médico General con Cédula Profesional. Diagnóstico de enfermedades agudas o crónicas, control de signos vitales, recetas médicas y seguimiento responsable.',
+    benefits: [
+      'Valoración clínica rigurosa y trato humano',
+      'Diagnóstico oportuno de enfermedades comunes',
+      'Control de presión, glucosa y estado general',
+      'Prescripción y orientación farmacológica certera'
+    ],
+    duration: '35 a 45 minutos',
+    recommendation: 'Traer historial o medicamentos que tomes actualmente.',
+    waMsg: 'Hola Dr. Dany, quisiera agendar una consulta médica general.'
+  },
+  'homeopatia': {
+    title: 'Homeopatía Clínica',
+    subtitle: 'Terapéutica médica natural y suave para tu organismo',
+    icon: 'fa-solid fa-leaf',
+    description: 'Enfoque complementario que busca estimular el sistema inmunológico y la capacidad curativa propia del cuerpo. Basada en el principio de similitud y sustancias dinámicas no tóxicas.',
+    benefits: [
+      'Tratamiento libre de efectos secundarios agresivos',
+      'Atención al origen emocional y físico de la dolencia',
+      'Complemento ideal para defensas y problemas crónicos',
+      'Apto para niños, adultos y personas sensibles'
+    ],
+    duration: '45 minutos',
+    recommendation: 'Comentar al Dr. cualquier tratamiento complementario en curso.',
+    waMsg: 'Hola Dr. Dany, me interesa agendar una consulta de Homeopatía Clínica.'
+  },
+  'medicina-alternativa': {
+    title: 'Medicina Alternativa e Integrativa',
+    subtitle: 'Bienestar holístico y armonía cuerpo-mente',
+    icon: 'fa-solid fa-spa',
+    description: 'Abordaje integral que combina terapias naturales, fitoterapia, equilibrio neuromuscular y hábitos de vida saludables con el criterio científico de un médico general.',
+    benefits: [
+      'Desintoxicación y revitalización energética corporal',
+      'Disminución del estrés, insomnio y agotamiento',
+      'Uso de opciones naturales con respaldo y seguridad',
+      'Tratamiento integral enfocado en la raíz del malestar'
+    ],
+    duration: '45 a 60 minutos',
+    recommendation: 'Venir con mente abierta y disposición para mejorar tu estilo de vida.',
+    waMsg: 'Hola Dr. Dany, deseo información y cita para Medicina Alternativa e Integrativa.'
   }
 };
 

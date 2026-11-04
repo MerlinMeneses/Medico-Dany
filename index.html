@@ -89,7 +89,10 @@
       {"@type": "MedicalTherapy", "name": "Ajuste Cervical y Cuello"},
       {"@type": "MedicalTherapy", "name": "Descarga Muscular Miofascial"},
       {"@type": "MedicalTherapy", "name": "Valoración con Radiografías"},
-      {"@type": "MedicalTherapy", "name": "Reeducación Postural"}
+      {"@type": "MedicalTherapy", "name": "Reeducación Postural"},
+      {"@type": "MedicalTherapy", "name": "Consulta Médica General"},
+      {"@type": "MedicalTherapy", "name": "Homeopatía Clínica"},
+      {"@type": "MedicalTherapy", "name": "Medicina Alternativa e Integrativa"}
     ],
     "areaServed": {
       "@type": "City",
@@ -541,6 +544,72 @@
             </ul>
             <div class="service-footer">
               <button class="btn-card-action" onclick="openServiceModal('postura-ergonomia')">
+                Detalles y Agendar <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Servicio 7: Consulta Médica General -->
+          <div class="service-card glass-card reveal-fade" data-service="medicina-general">
+            <div class="service-icon-box accent-cyan">
+              <i class="fa-solid fa-user-doctor"></i>
+            </div>
+            <div class="service-badge gold-badge">Salud Integral</div>
+            <h3 class="service-title">Consulta Médica General</h3>
+            <p class="service-desc">
+              Atención clínica primaria, diagnóstico certero, tratamiento y seguimiento integral con cédula profesional.
+            </p>
+            <ul class="service-points">
+              <li><i class="fa-solid fa-circle-check"></i> Evaluación clínica completa y signos</li>
+              <li><i class="fa-solid fa-circle-check"></i> Manejo de enfermedades comunes y dolor</li>
+              <li><i class="fa-solid fa-circle-check"></i> Prescripción médica responsable</li>
+            </ul>
+            <div class="service-footer">
+              <button class="btn-card-action" onclick="openServiceModal('medicina-general')">
+                Detalles y Agendar <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Servicio 8: Homeopatía Clínica -->
+          <div class="service-card glass-card reveal-fade delay-1" data-service="homeopatia">
+            <div class="service-icon-box accent-emerald">
+              <i class="fa-solid fa-leaf"></i>
+            </div>
+            <div class="service-badge">Terapia Suave</div>
+            <h3 class="service-title">Homeopatía Clínica</h3>
+            <p class="service-desc">
+              Terapéutica médica complementaria con sustancias dinamizadas para estimular la autorrecuperación de tu cuerpo.
+            </p>
+            <ul class="service-points">
+              <li><i class="fa-solid fa-circle-check"></i> Tratamiento natural y sin efectos secundarios</li>
+              <li><i class="fa-solid fa-circle-check"></i> Enfoque individualizado en cuerpo y mente</li>
+              <li><i class="fa-solid fa-circle-check"></i> Ideal para padecimientos crónicos y defensas</li>
+            </ul>
+            <div class="service-footer">
+              <button class="btn-card-action" onclick="openServiceModal('homeopatia')">
+                Detalles y Agendar <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- Servicio 9: Medicina Alternativa y Holística -->
+          <div class="service-card glass-card reveal-fade delay-2" data-service="medicina-alternativa">
+            <div class="service-icon-box accent-purple">
+              <i class="fa-solid fa-spa"></i>
+            </div>
+            <div class="service-badge">Enfoque Holístico</div>
+            <h3 class="service-title">Medicina Alternativa e Integrativa</h3>
+            <p class="service-desc">
+              Abordaje complementario que une terapias naturales, fitoterapia y equilibrio energético con criterio médico.
+            </p>
+            <ul class="service-points">
+              <li><i class="fa-solid fa-circle-check"></i> Armonización y bienestar biológico integral</li>
+              <li><i class="fa-solid fa-circle-check"></i> Terapias desintoxicantes y complementarias</li>
+              <li><i class="fa-solid fa-circle-check"></i> Prevención del desgaste físico y emocional</li>
+            </ul>
+            <div class="service-footer">
+              <button class="btn-card-action" onclick="openServiceModal('medicina-alternativa')">
                 Detalles y Agendar <i class="fa-solid fa-arrow-right"></i>
               </button>
             </div>
@@ -1031,6 +1100,9 @@
                       <option value="Descarga Muscular Miofascial">Descarga Muscular Miofascial</option>
                       <option value="Valoración Médica con Radiografías">Valoración con Radiografías</option>
                       <option value="Rehabilitación Postural">Reeducación Postural</option>
+                      <option value="Consulta Médica General">Consulta Médica General</option>
+                      <option value="Homeopatía Clínica">Homeopatía Clínica</option>
+                      <option value="Medicina Alternativa e Integrativa">Medicina Alternativa e Integrativa</option>
                     </select>
                   </div>
 
